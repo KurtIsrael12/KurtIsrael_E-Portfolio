@@ -1,3 +1,7 @@
+#aboutme .body-title p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .hero-row {
   display: flex;
   align-items: center;
