@@ -59,23 +59,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (window.anime) {
         const greetingText = document.getElementById('greetingText');
         const greetings = [
-            'Stay safe from cyber',
-            'साइबर से सुरक्षित रहें',
-            'সাইবার থেকে নিরাপদ থাকুন',
-            'サイバーから安全に過ごしてください',
-            'Restez en sécurité contre le cyber',
-            'Mantente seguro del ciber',
-            '保持网络安全',
-            'Bleib sicher vor Cybergefahren',
-            'சைபர் ஆபத்திலிருந்து பாதுகாப்பாக இருங்கள்',
-            'Fanacht sábháilte ón gcibear',
-            'Manténgase seguro del ciber',
-            'Bleiben Sie sicher vor Cyber',
-            'Stai al sicuro dal cyber',
-            'שמור על עצמך בטוח מפני סייבר',
-            'Оставайтесь в безопасности от киберугроз',
-            'ابق آمناً من الخطر السيبراني',
-            'Hãy an toàn khỏi mối đe dọa mạng'
+            'Hello! I am Kurt Israel T. Madiano',
+            'Welcome to my portfolio',
+            'I am a Full Stack Developer',
+            'I love creating web applications',
+            'Feel free to explore my projects'
         ];
         let greetIndex = 0;
         function animateGreeting(text) {
