@@ -707,7 +707,8 @@ body::selection {
   display: flex;
   flex-direction: row;
   padding: 100px;
-  background-color: #f8f9fa;
+  background-color: #232428;
+  color: #f5f5f5;
   height: 100vh;
 }
 
@@ -721,7 +722,7 @@ body::selection {
 .footer-left h2 {
   font-size: 32px;
   line-height: 40px;
-  color: #2d2e32;
+  color: #f5f5f5;
 }
 
 .footer-left h2 a {
@@ -822,20 +823,20 @@ body::selection {
 
 .footer-email-intro p {
   font-size: 12px;
-  color: #6c757d;
+  color: #f5f5f5;
   font-weight: 600;
 }
 
 .footer-email-intro h6 {
   font-size: 18px;
   font-weight: 400;
-  color: #6c757d;
+  color: #f5f5f5;
   margin-top: 10px;
 }
 
 .footer-email-intro h3 {
   font-size: 26px;
-  color: #2d2e32;
+  color: #f5f5f5;
   font-weight: 400;
   margin: 10px 0;
 }
@@ -859,7 +860,7 @@ body::selection {
 }
 
 .footer-menu li a {
-  color: #2d2e32;
+  color: #f5f5f5;
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
@@ -867,7 +868,7 @@ body::selection {
 }
 
 .footer-menu li a:hover {
-  color: #5ab894;
+  color: #7dd3ae;
   font-weight: 900;
 }
 
@@ -876,7 +877,10 @@ body::selection {
 }
 
 .social-icons a i {
-  color: #2d2e32;
+  color: #f5f5f5;
+  color: #f5f5f5 !important;
+  text-align: justify;
+  text-justify: inter-word;
   margin: 0 5px;
   transition: 0.3s ease;
   cursor: pointer;
