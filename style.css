@@ -834,9 +834,9 @@ body::selection {
   width: 80%;
   justify-content: space-between;
   border-radius: 10px;
-  padding: 60px 25% 40px 20px;
+  padding: 60px 20% 40px 20px;
   border: 1px solid rgba(125, 211, 174, 0.3);
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.98);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(15px);
   background-image: url(assets/email-background.png);
@@ -846,7 +846,7 @@ body::selection {
 .email-form h2 {
   font-size: 30px;
   letter-spacing: -1.5px;
-  color: #2d2e32;
+  color: #232428;
 }
 
 .email-form h2 span {
@@ -869,7 +869,14 @@ body::selection {
   border: 1px solid rgba(125, 211, 174, 0.3);
   padding: 4px 8px;
   font-family: "Raleway", sans-serif;
-  color: #2d2e32;
+  color: #232428;
+  background: #fff;
+  border: 1.5px solid #7dd3ae;
+}
+.email-form input::placeholder,
+.email-form textarea::placeholder {
+  color: #888;
+  opacity: 1;
 }
 
 .email-form textarea {
