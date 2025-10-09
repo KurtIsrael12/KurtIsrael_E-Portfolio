@@ -7,14 +7,22 @@
   .hero-left {
     margin-right: 0;
     margin-bottom: 24px;
+    align-items: center;
+    text-align: center;
   }
   .hero-right {
     align-items: center;
+    text-align: center;
   }
   .hero-stats {
     flex-direction: column;
     gap: 16px;
     align-items: center;
+    text-align: center;
+  }
+  .stat {
+    align-items: center;
+    text-align: center;
   }
 }
 #aboutme .body-title p {
