@@ -1,3 +1,61 @@
+.hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0 0;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+}
+.hero-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.resume-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #7dd3ae;
+  color: #232428;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background 0.2s, color 0.2s;
+}
+.resume-btn:hover {
+  background: #5ab894;
+  color: #fff;
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+.stat h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #232428;
+}
+.stat p {
+  font-size: 1rem;
+  color: #232428;
+  margin: 0;
+  text-align: center;
+}
 /* Hero section with photo and resume button */
 .hero-row {
   display: flex;
