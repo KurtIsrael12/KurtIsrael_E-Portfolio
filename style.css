@@ -132,8 +132,20 @@ dl { margin: 0; }
 .project-list { display: flex; flex-direction: column; gap: calc(var(--space) * 4); }
 .project-list.compact { gap: calc(var(--space) * 3); margin-top: calc(var(--space) * 2); }
 .project h3 { font-size: 1.1rem; }
-.project h3 a { color: var(--text); }
-.project h3 a:hover { color: var(--accent); }
+.project h3 a,
+.project-meta a,
+.project-list.compact p a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 3px;
+}
+.project h3 a:hover,
+.project-meta a:hover,
+.project-list.compact p a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
 .project .ext { font-size: 0.85em; color: var(--muted); }
 .project-meta { color: var(--muted); font-size: 0.85rem; margin: calc(var(--space) / 2) 0; }
 .project p { margin-top: calc(var(--space)); color: var(--text); }
